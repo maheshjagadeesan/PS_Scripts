@@ -1,0 +1,3 @@
+# PS_Scripts
+
+DisplayName	PrimarySmtpAddress	ReportToManagerEnabled	ReportToOriginatorEnabled	GrantSendOnBehalfTo	BypassModerationFromSendersOrMembers	ModeratedBy	ModerationEnabled	RecipientFilter
