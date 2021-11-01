@@ -78,7 +78,7 @@ $CSVOutput | Sort-Object Name | Export-Csv $CSVFile -NoTypeInformation
 $body = "Seqirus AD group Inventory_$da"
 
 #// email the report
-Send-MailMessage -To "reports@seqirus.com" -Bcc "Mahesh.Jagadeesan@seqirus.com" -SmtpServer "10.112.47.68" -Subject "PROD_SEQ_GROUP_Inventory_$da" -Body $body -From "reports@seqirus.com" -Attachments $CSVFile
+
 
 
 
